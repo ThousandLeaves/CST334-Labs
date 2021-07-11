@@ -28,10 +28,11 @@ Finally, a buffer of 500 provides approximately 50% page fault rates. This was e
 ---
 
 ## Matrix Multiplication Using Threads
-This lab uses multithreading to improve the calculation time necessary for solving the dot product of very large matrices. For each row in the matrix, one thread is created. Mutual exclusion is used to allow critical section resources to only be given to one thread at a time, effectively locking those resources until the current thread is finished with its work. 
+* This lab uses multithreading to improve the calculation time necessary for solving the dot product of very large matrices. For each row in the matrix, one thread is created. Mutual exclusion is used to allow critical section resources to only be given to one thread at a time, effectively locking those resources until the current thread is finished with its work. 
 
-The result of this short program is a third matrix produced from the dot product of the first two.
+* The result of this short program is a third matrix produced from the dot product of the first two.
 
 ---
 
-## 
+## Thread Syncing
+* The purpose of this program is to utilize more generalized mutual exclusion objects called semaphores in order to solve a task where multiple threads must produce a string containing the letters of the alphabet in order.
