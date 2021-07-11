@@ -26,3 +26,6 @@ Doubling the buffer size to 200 drops the total page faults to 80% of all reads 
 Finally, a buffer of 500 provides approximately 50% page fault rates. This was expected by this point, especially because the accesses.txt file contains numbers ranging 0-999.
 
 ---
+
+## Matrix Multiplication Using Threads
+This lab uses multithreading to improve the calculation time necessary for solving the dot product of very large matrices.
